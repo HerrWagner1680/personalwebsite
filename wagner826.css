@@ -79,7 +79,9 @@ h6 {
 }
 
 #column2 h6 a:hover{
-	text-decoration: underline;
+	/*text-decoration: underline;*/
+	color: #444;
+	border-top: 3px solid gray;
 }
 
 
@@ -88,6 +90,17 @@ h6 {
 	font-size: 28px;
 	float: left;
 	display: inline-block;
+}
+
+#column1 h2 a {
+	text-decoration: overline;
+	color: black;
+}
+
+#column1 h2 a:hover {
+	/*text-decoration: underline;*/
+	color: #444;
+	border-top: 3px solid gray;
 }
 
 #column2 {
