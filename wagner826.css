@@ -148,3 +148,24 @@ iframe {
 	display: block;
 	padding-bottom: 50px;
 }
+
+#foliofooter {
+	height: 100px;
+	width: 900px;
+	margin: 0 auto;
+	position: absolute;
+	top: 1400px;
+	text-align: center;
+}
+
+#foliofooter a {
+	text-decoration: none;
+	color: black;
+	letter-spacing: 2px;
+	font-size: 25px;
+
+}
+
+#foliofooter a:hover {
+	text-decoration: underline;
+}
