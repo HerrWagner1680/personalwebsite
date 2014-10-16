@@ -1,19 +1,48 @@
+.container {
+	width: 900px;
+	margin: 0 auto;
+}
+
+
 #column1 {
-	width: 600px;
+	width: 400px;
 	font-size: 35px;
+	float: left;
+	display: inline-block;
 }
 
 #column2 {
-	width: 250px;
+	width: 150px;
 	font-size: 20px;
 	background-color: #aaa;
 	border: 2px solid #555;
 	border-radius: 6px;
+	float: right;
+	display: inline-block;
 }
 
 iframe {
+
 	width:1024px; 
-	height: 768px; 
+	height: 768px;
 	
-	-webkit-transform:scale(0.5);
+	-webkit-transform:scale(0.4);
+}
+
+#onion {
+	position: absolute;
+	margin-top: -100px;
+	left: 0px;
+}
+
+#vole {
+	position: absolute;
+	top: 400px;
+	left: 0px;
+}
+
+#nycda {
+	position: absolute;
+	top: 800px;
+	left: 0px;
 }
