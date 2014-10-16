@@ -29,16 +29,63 @@ iframe {
 	-webkit-transform:scale(0.4);
 }
 
+
+#onionlink {
+	display: block;
+	text-align: center;
+	position: absolute;
+	top: 195px;
+	left: 0px;
+	right: 0px;
+	text-decoration: none;
+	color: black;
+}
+
+#onionlink:hover {
+	text-decoration: underline;
+}
+
 #onion {
 	position: absolute;
-	margin-top: -100px;
+	top: -10px;
 	left: 0px;
+}
+
+#volelink {
+	display: block;
+	text-align: center;
+	position: absolute;
+	top: 605px;
+	left: 0px;
+	right: 0px;
+	text-decoration: none;
+	color: black;
+}
+
+#volelink:hover {
+	text-decoration: underline;
 }
 
 #vole {
 	position: absolute;
 	top: 400px;
 	left: 0px;
+}
+
+
+#nycdalink {
+	display: block;
+	text-align: center;
+	position: absolute;
+	top: 1005px;
+	left: 0px;
+	right: 0px;
+	text-decoration: none;
+	color: black;
+}
+
+#nycdalink:hover {
+	text-decoration: underline;
 }
 
 #nycda {
