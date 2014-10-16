@@ -149,6 +149,51 @@ iframe {
 	padding-bottom: 50px;
 }
 
+
+#aboutfooter {
+	height: 100px;
+	width: 900px;
+	margin: 0 auto;
+	text-align: center;
+	position: absolute;
+	top: 1000px;
+	left: 385px;
+}
+
+#aboutfooter a {
+	text-decoration: none;
+	color: black;
+	letter-spacing: -1px;
+	font-size: 25px;
+
+}
+
+#aboutfooter a:hover {
+	text-decoration: underline;
+}
+
+
+
+#photofooter {
+	height: 100px;
+	width: 900px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#photofooter a {
+	text-decoration: none;
+	color: black;
+	letter-spacing: 2px;
+	font-size: 25px;
+
+}
+
+#photofooter a:hover {
+	text-decoration: underline;
+}
+
+
 #foliofooter {
 	height: 100px;
 	width: 900px;
